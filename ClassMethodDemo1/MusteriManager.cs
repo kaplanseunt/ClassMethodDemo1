@@ -17,9 +17,9 @@ namespace ClassMethodDemo1
 
             Console.WriteLine("Deleted...");
         }
-        public void List()
+        public void List(Customer customer)
         {
-            Console.WriteLine(" ");
+            Console.WriteLine(customer.Ad+" eklendi");
             Console.WriteLine("Listed...");
 
         }
